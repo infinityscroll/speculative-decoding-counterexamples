@@ -15,6 +15,12 @@ The original witness also makes the paper's recursive-rejection rule achieve 95.
 
 Read [REPORT.md](REPORT.md), the [family proof](family/PROOF.md), the [independent review](family-independent/REVIEW.md), and the [original witness](FOUR-TOKEN-REPORT.md).
 
+## Constructive repair and broader support
+
+The [addendum](addendum/README.txt) supplies a valid exponential-clock proof of q-convexity for the successive sampler. This preserves sorted-prefix minimization, while leaving the published probability evaluator incorrect. For two drafts, a corrected [exact acceptance-value oracle](addendum/repair/repair.py) takes O(V log V) comparisons and O(V) arithmetic operations; it does not construct an optimal verification kernel or claim a runtime speedup. [Proof](addendum/repair/PROOF.md) · [Separate review](addendum/repair-review/REVIEW.md).
+
+A [second proof](addendum/relevance/PROOF.md) extends the discrepancy to **three drafts and every finite vocabulary size V≥5**, with an overestimate of at least **7.4006 percentage points**. The enlarged-vocabulary values are bounds, and the fixed-gap example concentrates 99.9% of its probability on four tokens. A separate corollary permits arbitrarily small total variation between p and q with shrinking positive error. Neither result establishes prevalence in trained models. [Independent bound check](addendum/relevance-review/REVIEW.txt).
+
 ## Reproduce
 
 Python 3.8 or newer, standard library only:
@@ -23,7 +29,7 @@ Python 3.8 or newer, standard library only:
 python3 -B verify_all.py
 ```
 
-The command verifies file integrity and executes separately written rational-arithmetic implementations in an isolated temporary directory. It checks the original witness and RRS rule, both finite family witnesses, every relevant subset cut, explicit output marginals, and positive controls for the alternative product-weighted sampling law. It does not infer the infinite-family theorem from finite enumeration: that claim has an analytic proof and a separate proof review.
+The command verifies file integrity and executes separately written rational-arithmetic implementations in an isolated temporary directory. It checks the original witness and RRS rule, both finite family witnesses, every relevant subset cut, explicit output marginals, and positive controls for the alternative product-weighted sampling law. It also replays the repaired two-draft oracle, separate structural-proof controls, and exact large-vocabulary bounds. It does not infer the infinite-family theorem from finite enumeration: that claim has an analytic proof and a separate proof review.
 
 No model inference, API, solver, network or paid compute is needed. Source PDFs are linked and hashed, not redistributed or re-extracted by the verifier. [PACKAGING-NOTES.json](PACKAGING-NOTES.json) records the portability-only changes to frozen source scripts.
 

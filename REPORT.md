@@ -42,6 +42,14 @@ For three drafts with q=(1/2,1/6,1/6,1/6) and p=(19/20,1/60,1/60,1/60), successi
 
 The published calculation returns 19/20. The paper's own recursive-rejection rule gives 191/200. Thus the calculation can also fall below a feasible acceptance rate: it is not universally a valid upper bound for the stated law. See [FOUR-TOKEN-REPORT.md](FOUR-TOKEN-REPORT.md).
 
+## Constructive correction and fixed-draft extension
+
+The wrong generating-function identity does not make the q-convexity statement false. A [separate exponential-clock merging argument](addendum/repair/PROOF.md) establishes it for the actual successive sampler and preserves the sorted-prefix minimization. For two drafts, direct conditioning gives Q(H)=a−(1−a)b, with a=sum_H q_i and b=sum_H q_i/(1−q_i). Maintaining these quantities along sorted prefixes gives a corrected exact acceptance-value oracle in O(V log V) comparisons and O(V) arithmetic operations. It is not an optimal verification kernel, a finite-precision production implementation, or a fast evaluator for arbitrary draft count.
+
+The arbitrary-error family above grows both draft count and vocabulary. A different [fixed-three-draft construction](addendum/relevance/PROOF.md) works for every finite V≥5: the printed value is at least 0.991782528858 and the actual optimum is at most 0.917775661504, retaining more than 7.4006 percentage points of error. These are bounds, not exact enlarged-vocabulary values. The construction leaves only 0.1% total mass on the additional tokens, so it addresses vocabulary size but not the separate issue of effective support or realism.
+
+A separate analytical corollary gives counterexamples for arbitrarily TV-close p,q with shrinking error; no fixed-size gap under arbitrarily small TV distance is claimed. Both follow-ups passed separate internal mathematical checks and exact finite controls. Standard probability facts underlie the repair; specific priority and external human review remain unverified.
+
 ## What this establishes
 
 This refutes the claimed exact without-replacement computation under Eq. (6). Replacing the stated sampler with the product-weighted law repairs these formulas and positive controls, but changes the protocol. The general transport characterization, q-convexity itself, with-replacement results, Greedy method and empirical tables have not been refuted.

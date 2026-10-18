@@ -1,0 +1,5715 @@
+{
+  "status": "PASS_EXACT_TWO_DRAFT_REPAIR_CHECKS",
+  "cases": [
+    {
+      "V": 3,
+      "p": [
+        {
+          "exact": "3/10",
+          "decimal": 0.3
+        },
+        {
+          "exact": "3/10",
+          "decimal": 0.3
+        },
+        {
+          "exact": "2/5",
+          "decimal": 0.4
+        }
+      ],
+      "q": [
+        {
+          "exact": "3/7",
+          "decimal": 0.42857142857142855
+        },
+        {
+          "exact": "3/7",
+          "decimal": 0.42857142857142855
+        },
+        {
+          "exact": "1/7",
+          "decimal": 0.14285714285714285
+        }
+      ],
+      "ordered_pairs": 6,
+      "subsets": 8,
+      "corrected_optimum": {
+        "exact": "67/70",
+        "decimal": 0.9571428571428572
+      },
+      "prefix_trace": {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "states": [
+          {
+            "prefix_length": 0,
+            "q_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "q_odds_sum": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "p_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          },
+          {
+            "prefix_length": 1,
+            "q_mass": {
+              "exact": "3/7",
+              "decimal": 0.42857142857142855
+            },
+            "q_odds_sum": {
+              "exact": "3/4",
+              "decimal": 0.75
+            },
+            "p_mass": {
+              "exact": "3/10",
+              "decimal": 0.3
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "13/10",
+              "decimal": 1.3
+            }
+          },
+          {
+            "prefix_length": 2,
+            "q_mass": {
+              "exact": "6/7",
+              "decimal": 0.8571428571428571
+            },
+            "q_odds_sum": {
+              "exact": "3/2",
+              "decimal": 1.5
+            },
+            "p_mass": {
+              "exact": "3/5",
+              "decimal": 0.6
+            },
+            "Q": {
+              "exact": "9/14",
+              "decimal": 0.6428571428571429
+            },
+            "objective": {
+              "exact": "67/70",
+              "decimal": 0.9571428571428572
+            }
+          },
+          {
+            "prefix_length": 3,
+            "q_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "q_odds_sum": {
+              "exact": "5/3",
+              "decimal": 1.6666666666666667
+            },
+            "p_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "Q": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      "subset_rows": [
+        {
+          "H": [],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        },
+        {
+          "H": [
+            0
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "13/10",
+            "decimal": 1.3
+          }
+        },
+        {
+          "H": [
+            1
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "13/10",
+            "decimal": 1.3
+          }
+        },
+        {
+          "H": [
+            2
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "7/5",
+            "decimal": 1.4
+          }
+        },
+        {
+          "H": [
+            0,
+            1
+          ],
+          "direct_Q": {
+            "exact": "9/14",
+            "decimal": 0.6428571428571429
+          },
+          "objective": {
+            "exact": "67/70",
+            "decimal": 0.9571428571428572
+          }
+        },
+        {
+          "H": [
+            0,
+            2
+          ],
+          "direct_Q": {
+            "exact": "5/28",
+            "decimal": 0.17857142857142858
+          },
+          "objective": {
+            "exact": "213/140",
+            "decimal": 1.5214285714285714
+          }
+        },
+        {
+          "H": [
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "5/28",
+            "decimal": 0.17857142857142858
+          },
+          "objective": {
+            "exact": "213/140",
+            "decimal": 1.5214285714285714
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "V": 4,
+      "p": [
+        {
+          "exact": "19/22",
+          "decimal": 0.8636363636363636
+        },
+        {
+          "exact": "1/22",
+          "decimal": 0.045454545454545456
+        },
+        {
+          "exact": "1/22",
+          "decimal": 0.045454545454545456
+        },
+        {
+          "exact": "1/22",
+          "decimal": 0.045454545454545456
+        }
+      ],
+      "q": [
+        {
+          "exact": "5/11",
+          "decimal": 0.45454545454545453
+        },
+        {
+          "exact": "3/11",
+          "decimal": 0.2727272727272727
+        },
+        {
+          "exact": "2/11",
+          "decimal": 0.18181818181818182
+        },
+        {
+          "exact": "1/11",
+          "decimal": 0.09090909090909091
+        }
+      ],
+      "ordered_pairs": 12,
+      "subsets": 16,
+      "corrected_optimum": {
+        "exact": "719/792",
+        "decimal": 0.9078282828282829
+      },
+      "prefix_trace": {
+        "order": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "states": [
+          {
+            "prefix_length": 0,
+            "q_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "q_odds_sum": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "p_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          },
+          {
+            "prefix_length": 1,
+            "q_mass": {
+              "exact": "3/11",
+              "decimal": 0.2727272727272727
+            },
+            "q_odds_sum": {
+              "exact": "3/8",
+              "decimal": 0.375
+            },
+            "p_mass": {
+              "exact": "1/22",
+              "decimal": 0.045454545454545456
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "23/22",
+              "decimal": 1.0454545454545454
+            }
+          },
+          {
+            "prefix_length": 2,
+            "q_mass": {
+              "exact": "5/11",
+              "decimal": 0.45454545454545453
+            },
+            "q_odds_sum": {
+              "exact": "43/72",
+              "decimal": 0.5972222222222222
+            },
+            "p_mass": {
+              "exact": "1/11",
+              "decimal": 0.09090909090909091
+            },
+            "Q": {
+              "exact": "17/132",
+              "decimal": 0.12878787878787878
+            },
+            "objective": {
+              "exact": "127/132",
+              "decimal": 0.9621212121212122
+            }
+          },
+          {
+            "prefix_length": 3,
+            "q_mass": {
+              "exact": "6/11",
+              "decimal": 0.5454545454545454
+            },
+            "q_odds_sum": {
+              "exact": "251/360",
+              "decimal": 0.6972222222222222
+            },
+            "p_mass": {
+              "exact": "3/22",
+              "decimal": 0.13636363636363635
+            },
+            "Q": {
+              "exact": "181/792",
+              "decimal": 0.22853535353535354
+            },
+            "objective": {
+              "exact": "719/792",
+              "decimal": 0.9078282828282829
+            }
+          },
+          {
+            "prefix_length": 4,
+            "q_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "q_odds_sum": {
+              "exact": "551/360",
+              "decimal": 1.5305555555555554
+            },
+            "p_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "Q": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      "subset_rows": [
+        {
+          "H": [],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        },
+        {
+          "H": [
+            0
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "41/22",
+            "decimal": 1.8636363636363635
+          }
+        },
+        {
+          "H": [
+            1
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "23/22",
+            "decimal": 1.0454545454545454
+          }
+        },
+        {
+          "H": [
+            2
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "23/22",
+            "decimal": 1.0454545454545454
+          }
+        },
+        {
+          "H": [
+            3
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "23/22",
+            "decimal": 1.0454545454545454
+          }
+        },
+        {
+          "H": [
+            0,
+            1
+          ],
+          "direct_Q": {
+            "exact": "35/88",
+            "decimal": 0.3977272727272727
+          },
+          "objective": {
+            "exact": "133/88",
+            "decimal": 1.5113636363636365
+          }
+        },
+        {
+          "H": [
+            0,
+            2
+          ],
+          "direct_Q": {
+            "exact": "25/99",
+            "decimal": 0.25252525252525254
+          },
+          "objective": {
+            "exact": "164/99",
+            "decimal": 1.6565656565656566
+          }
+        },
+        {
+          "H": [
+            0,
+            3
+          ],
+          "direct_Q": {
+            "exact": "4/33",
+            "decimal": 0.12121212121212122
+          },
+          "objective": {
+            "exact": "59/33",
+            "decimal": 1.7878787878787878
+          }
+        },
+        {
+          "H": [
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "17/132",
+            "decimal": 0.12878787878787878
+          },
+          "objective": {
+            "exact": "127/132",
+            "decimal": 0.9621212121212122
+          }
+        },
+        {
+          "H": [
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "27/440",
+            "decimal": 0.06136363636363636
+          },
+          "objective": {
+            "exact": "453/440",
+            "decimal": 1.0295454545454545
+          }
+        },
+        {
+          "H": [
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "19/495",
+            "decimal": 0.03838383838383838
+          },
+          "objective": {
+            "exact": "521/495",
+            "decimal": 1.0525252525252524
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "617/792",
+            "decimal": 0.7790404040404041
+          },
+          "objective": {
+            "exact": "931/792",
+            "decimal": 1.1755050505050506
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "383/660",
+            "decimal": 0.5803030303030303
+          },
+          "objective": {
+            "exact": "907/660",
+            "decimal": 1.3742424242424243
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "68/165",
+            "decimal": 0.4121212121212121
+          },
+          "objective": {
+            "exact": "509/330",
+            "decimal": 1.5424242424242425
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "181/792",
+            "decimal": 0.22853535353535354
+          },
+          "objective": {
+            "exact": "719/792",
+            "decimal": 0.9078282828282829
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "V": 5,
+      "p": [
+        {
+          "exact": "1/25",
+          "decimal": 0.04
+        },
+        {
+          "exact": "3/25",
+          "decimal": 0.12
+        },
+        {
+          "exact": "1/5",
+          "decimal": 0.2
+        },
+        {
+          "exact": "7/25",
+          "decimal": 0.28
+        },
+        {
+          "exact": "9/25",
+          "decimal": 0.36
+        }
+      ],
+      "q": [
+        {
+          "exact": "9/25",
+          "decimal": 0.36
+        },
+        {
+          "exact": "7/25",
+          "decimal": 0.28
+        },
+        {
+          "exact": "1/5",
+          "decimal": 0.2
+        },
+        {
+          "exact": "3/25",
+          "decimal": 0.12
+        },
+        {
+          "exact": "1/25",
+          "decimal": 0.04
+        }
+      ],
+      "ordered_pairs": 20,
+      "subsets": 32,
+      "corrected_optimum": {
+        "exact": "641/900",
+        "decimal": 0.7122222222222222
+      },
+      "prefix_trace": {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "states": [
+          {
+            "prefix_length": 0,
+            "q_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "q_odds_sum": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "p_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          },
+          {
+            "prefix_length": 1,
+            "q_mass": {
+              "exact": "9/25",
+              "decimal": 0.36
+            },
+            "q_odds_sum": {
+              "exact": "9/16",
+              "decimal": 0.5625
+            },
+            "p_mass": {
+              "exact": "1/25",
+              "decimal": 0.04
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "26/25",
+              "decimal": 1.04
+            }
+          },
+          {
+            "prefix_length": 2,
+            "q_mass": {
+              "exact": "16/25",
+              "decimal": 0.64
+            },
+            "q_odds_sum": {
+              "exact": "137/144",
+              "decimal": 0.9513888888888888
+            },
+            "p_mass": {
+              "exact": "4/25",
+              "decimal": 0.16
+            },
+            "Q": {
+              "exact": "119/400",
+              "decimal": 0.2975
+            },
+            "objective": {
+              "exact": "69/80",
+              "decimal": 0.8625
+            }
+          },
+          {
+            "prefix_length": 3,
+            "q_mass": {
+              "exact": "21/25",
+              "decimal": 0.84
+            },
+            "q_odds_sum": {
+              "exact": "173/144",
+              "decimal": 1.2013888888888888
+            },
+            "p_mass": {
+              "exact": "9/25",
+              "decimal": 0.36
+            },
+            "Q": {
+              "exact": "583/900",
+              "decimal": 0.6477777777777778
+            },
+            "objective": {
+              "exact": "641/900",
+              "decimal": 0.7122222222222222
+            }
+          },
+          {
+            "prefix_length": 4,
+            "q_mass": {
+              "exact": "24/25",
+              "decimal": 0.96
+            },
+            "q_odds_sum": {
+              "exact": "2119/1584",
+              "decimal": 1.3377525252525253
+            },
+            "p_mass": {
+              "exact": "16/25",
+              "decimal": 0.64
+            },
+            "Q": {
+              "exact": "35897/39600",
+              "decimal": 0.906489898989899
+            },
+            "objective": {
+              "exact": "29047/39600",
+              "decimal": 0.7335101010101011
+            }
+          },
+          {
+            "prefix_length": 5,
+            "q_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "q_odds_sum": {
+              "exact": "2185/1584",
+              "decimal": 1.3794191919191918
+            },
+            "p_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "Q": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      "subset_rows": [
+        {
+          "H": [],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        },
+        {
+          "H": [
+            0
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "26/25",
+            "decimal": 1.04
+          }
+        },
+        {
+          "H": [
+            1
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "28/25",
+            "decimal": 1.12
+          }
+        },
+        {
+          "H": [
+            2
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "6/5",
+            "decimal": 1.2
+          }
+        },
+        {
+          "H": [
+            3
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "32/25",
+            "decimal": 1.28
+          }
+        },
+        {
+          "H": [
+            4
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "34/25",
+            "decimal": 1.36
+          }
+        },
+        {
+          "H": [
+            0,
+            1
+          ],
+          "direct_Q": {
+            "exact": "119/400",
+            "decimal": 0.2975
+          },
+          "objective": {
+            "exact": "69/80",
+            "decimal": 0.8625
+          }
+        },
+        {
+          "H": [
+            0,
+            2
+          ],
+          "direct_Q": {
+            "exact": "81/400",
+            "decimal": 0.2025
+          },
+          "objective": {
+            "exact": "83/80",
+            "decimal": 1.0375
+          }
+        },
+        {
+          "H": [
+            0,
+            3
+          ],
+          "direct_Q": {
+            "exact": "513/4400",
+            "decimal": 0.11659090909090909
+          },
+          "objective": {
+            "exact": "1059/880",
+            "decimal": 1.2034090909090909
+          }
+        },
+        {
+          "H": [
+            0,
+            4
+          ],
+          "direct_Q": {
+            "exact": "3/80",
+            "decimal": 0.0375
+          },
+          "objective": {
+            "exact": "109/80",
+            "decimal": 1.3625
+          }
+        },
+        {
+          "H": [
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "133/900",
+            "decimal": 0.14777777777777779
+          },
+          "objective": {
+            "exact": "211/180",
+            "decimal": 1.1722222222222223
+          }
+        },
+        {
+          "H": [
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "14/165",
+            "decimal": 0.08484848484848485
+          },
+          "objective": {
+            "exact": "217/165",
+            "decimal": 1.3151515151515152
+          }
+        },
+        {
+          "H": [
+            1,
+            4
+          ],
+          "direct_Q": {
+            "exact": "49/1800",
+            "decimal": 0.02722222222222222
+          },
+          "objective": {
+            "exact": "523/360",
+            "decimal": 1.4527777777777777
+          }
+        },
+        {
+          "H": [
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "63/1100",
+            "decimal": 0.057272727272727274
+          },
+          "objective": {
+            "exact": "313/220",
+            "decimal": 1.4227272727272726
+          }
+        },
+        {
+          "H": [
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "11/600",
+            "decimal": 0.018333333333333333
+          },
+          "objective": {
+            "exact": "37/24",
+            "decimal": 1.5416666666666667
+          }
+        },
+        {
+          "H": [
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "23/2200",
+            "decimal": 0.010454545454545454
+          },
+          "objective": {
+            "exact": "717/440",
+            "decimal": 1.6295454545454546
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "583/900",
+            "decimal": 0.6477777777777778
+          },
+          "objective": {
+            "exact": "641/900",
+            "decimal": 0.7122222222222222
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "3293/6600",
+            "decimal": 0.49893939393939396
+          },
+          "objective": {
+            "exact": "6211/6600",
+            "decimal": 0.941060606060606
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4
+          ],
+          "direct_Q": {
+            "exact": "163/450",
+            "decimal": 0.3622222222222222
+          },
+          "objective": {
+            "exact": "521/450",
+            "decimal": 1.1577777777777778
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "207/550",
+            "decimal": 0.37636363636363634
+          },
+          "objective": {
+            "exact": "629/550",
+            "decimal": 1.1436363636363636
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "31/120",
+            "decimal": 0.25833333333333336
+          },
+          "objective": {
+            "exact": "161/120",
+            "decimal": 1.3416666666666666
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "181/1100",
+            "decimal": 0.16454545454545455
+          },
+          "objective": {
+            "exact": "1667/1100",
+            "decimal": 1.5154545454545454
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "287/990",
+            "decimal": 0.2898989898989899
+          },
+          "objective": {
+            "exact": "1297/990",
+            "decimal": 1.3101010101010102
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "29/150",
+            "decimal": 0.19333333333333333
+          },
+          "objective": {
+            "exact": "223/150",
+            "decimal": 1.4866666666666666
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "1213/9900",
+            "decimal": 0.12252525252525252
+          },
+          "objective": {
+            "exact": "16211/9900",
+            "decimal": 1.6374747474747475
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "71/825",
+            "decimal": 0.08606060606060606
+          },
+          "objective": {
+            "exact": "1447/825",
+            "decimal": 1.753939393939394
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "35897/39600",
+            "decimal": 0.906489898989899
+          },
+          "objective": {
+            "exact": "29047/39600",
+            "decimal": 0.7335101010101011
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "877/1200",
+            "decimal": 0.7308333333333333
+          },
+          "objective": {
+            "exact": "1187/1200",
+            "decimal": 0.9891666666666666
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "4547/7920",
+            "decimal": 0.5741161616161616
+          },
+          "objective": {
+            "exact": "9709/7920",
+            "decimal": 1.2258838383838384
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "5843/13200",
+            "decimal": 0.44265151515151513
+          },
+          "objective": {
+            "exact": "18973/13200",
+            "decimal": 1.4373484848484848
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "761/2200",
+            "decimal": 0.3459090909090909
+          },
+          "objective": {
+            "exact": "3551/2200",
+            "decimal": 1.614090909090909
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "V": 8,
+      "p": [
+        {
+          "exact": "1/36",
+          "decimal": 0.027777777777777776
+        },
+        {
+          "exact": "1/18",
+          "decimal": 0.05555555555555555
+        },
+        {
+          "exact": "1/12",
+          "decimal": 0.08333333333333333
+        },
+        {
+          "exact": "1/9",
+          "decimal": 0.1111111111111111
+        },
+        {
+          "exact": "5/36",
+          "decimal": 0.1388888888888889
+        },
+        {
+          "exact": "1/6",
+          "decimal": 0.16666666666666666
+        },
+        {
+          "exact": "7/36",
+          "decimal": 0.19444444444444445
+        },
+        {
+          "exact": "2/9",
+          "decimal": 0.2222222222222222
+        }
+      ],
+      "q": [
+        {
+          "exact": "2/9",
+          "decimal": 0.2222222222222222
+        },
+        {
+          "exact": "7/36",
+          "decimal": 0.19444444444444445
+        },
+        {
+          "exact": "1/6",
+          "decimal": 0.16666666666666666
+        },
+        {
+          "exact": "5/36",
+          "decimal": 0.1388888888888889
+        },
+        {
+          "exact": "1/9",
+          "decimal": 0.1111111111111111
+        },
+        {
+          "exact": "1/12",
+          "decimal": 0.08333333333333333
+        },
+        {
+          "exact": "1/18",
+          "decimal": 0.05555555555555555
+        },
+        {
+          "exact": "1/36",
+          "decimal": 0.027777777777777776
+        }
+      ],
+      "ordered_pairs": 56,
+      "subsets": 256,
+      "corrected_optimum": {
+        "exact": "378703/503440",
+        "decimal": 0.7522306531066264
+      },
+      "prefix_trace": {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "states": [
+          {
+            "prefix_length": 0,
+            "q_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "q_odds_sum": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "p_mass": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          },
+          {
+            "prefix_length": 1,
+            "q_mass": {
+              "exact": "2/9",
+              "decimal": 0.2222222222222222
+            },
+            "q_odds_sum": {
+              "exact": "2/7",
+              "decimal": 0.2857142857142857
+            },
+            "p_mass": {
+              "exact": "1/36",
+              "decimal": 0.027777777777777776
+            },
+            "Q": {
+              "exact": "0",
+              "decimal": 0.0
+            },
+            "objective": {
+              "exact": "37/36",
+              "decimal": 1.0277777777777777
+            }
+          },
+          {
+            "prefix_length": 2,
+            "q_mass": {
+              "exact": "5/12",
+              "decimal": 0.4166666666666667
+            },
+            "q_odds_sum": {
+              "exact": "107/203",
+              "decimal": 0.5270935960591133
+            },
+            "p_mass": {
+              "exact": "1/12",
+              "decimal": 0.08333333333333333
+            },
+            "Q": {
+              "exact": "19/174",
+              "decimal": 0.10919540229885058
+            },
+            "objective": {
+              "exact": "113/116",
+              "decimal": 0.9741379310344828
+            }
+          },
+          {
+            "prefix_length": 3,
+            "q_mass": {
+              "exact": "7/12",
+              "decimal": 0.5833333333333334
+            },
+            "q_odds_sum": {
+              "exact": "738/1015",
+              "decimal": 0.7270935960591133
+            },
+            "p_mass": {
+              "exact": "1/6",
+              "decimal": 0.16666666666666666
+            },
+            "Q": {
+              "exact": "683/2436",
+              "decimal": 0.2803776683087028
+            },
+            "objective": {
+              "exact": "2159/2436",
+              "decimal": 0.8862889983579638
+            }
+          },
+          {
+            "prefix_length": 4,
+            "q_mass": {
+              "exact": "13/18",
+              "decimal": 0.7222222222222222
+            },
+            "q_odds_sum": {
+              "exact": "27953/31465",
+              "decimal": 0.8883839186397584
+            },
+            "p_mass": {
+              "exact": "5/18",
+              "decimal": 0.2777777777777778
+            },
+            "Q": {
+              "exact": "2992/6293",
+              "decimal": 0.47544891148895596
+            },
+            "objective": {
+              "exact": "90883/113274",
+              "decimal": 0.8023288662888218
+            }
+          },
+          {
+            "prefix_length": 5,
+            "q_mass": {
+              "exact": "5/6",
+              "decimal": 0.8333333333333334
+            },
+            "q_odds_sum": {
+              "exact": "255089/251720",
+              "decimal": 1.0133839186397584
+            },
+            "p_mass": {
+              "exact": "5/12",
+              "decimal": 0.4166666666666667
+            },
+            "Q": {
+              "exact": "1003511/1510320",
+              "decimal": 0.6644360135600402
+            },
+            "objective": {
+              "exact": "378703/503440",
+              "decimal": 0.7522306531066264
+            }
+          },
+          {
+            "prefix_length": 6,
+            "q_mass": {
+              "exact": "11/12",
+              "decimal": 0.9166666666666666
+            },
+            "q_odds_sum": {
+              "exact": "3057699/2768920",
+              "decimal": 1.1042930095488495
+            },
+            "p_mass": {
+              "exact": "7/12",
+              "decimal": 0.5833333333333334
+            },
+            "Q": {
+              "exact": "27400421/33227040",
+              "decimal": 0.8246422492042625
+            },
+            "objective": {
+              "exact": "25209059/33227040",
+              "decimal": 0.7586910841290708
+            }
+          },
+          {
+            "prefix_length": 7,
+            "q_mass": {
+              "exact": "35/36",
+              "decimal": 0.9722222222222222
+            },
+            "q_odds_sum": {
+              "exact": "54749803/47071640",
+              "decimal": 1.1631165389606142
+            },
+            "p_mass": {
+              "exact": "7/9",
+              "decimal": 0.7777777777777778
+            },
+            "Q": {
+              "exact": "530919199/564859680",
+              "decimal": 0.9399134294733162
+            },
+            "objective": {
+              "exact": "1419827363/1694579040",
+              "decimal": 0.8378643483044615
+            }
+          },
+          {
+            "prefix_length": 8,
+            "q_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "q_odds_sum": {
+              "exact": "56094707/47071640",
+              "decimal": 1.1916879675320426
+            },
+            "p_mass": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "Q": {
+              "exact": "1",
+              "decimal": 1.0
+            },
+            "objective": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      "subset_rows": [
+        {
+          "H": [],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        },
+        {
+          "H": [
+            0
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "37/36",
+            "decimal": 1.0277777777777777
+          }
+        },
+        {
+          "H": [
+            1
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "19/18",
+            "decimal": 1.0555555555555556
+          }
+        },
+        {
+          "H": [
+            2
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "13/12",
+            "decimal": 1.0833333333333333
+          }
+        },
+        {
+          "H": [
+            3
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "10/9",
+            "decimal": 1.1111111111111112
+          }
+        },
+        {
+          "H": [
+            4
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "41/36",
+            "decimal": 1.1388888888888888
+          }
+        },
+        {
+          "H": [
+            5
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "7/6",
+            "decimal": 1.1666666666666667
+          }
+        },
+        {
+          "H": [
+            6
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "43/36",
+            "decimal": 1.1944444444444444
+          }
+        },
+        {
+          "H": [
+            7
+          ],
+          "direct_Q": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "objective": {
+            "exact": "11/9",
+            "decimal": 1.2222222222222223
+          }
+        },
+        {
+          "H": [
+            0,
+            1
+          ],
+          "direct_Q": {
+            "exact": "19/174",
+            "decimal": 0.10919540229885058
+          },
+          "objective": {
+            "exact": "113/116",
+            "decimal": 0.9741379310344828
+          }
+        },
+        {
+          "H": [
+            0,
+            2
+          ],
+          "direct_Q": {
+            "exact": "29/315",
+            "decimal": 0.09206349206349207
+          },
+          "objective": {
+            "exact": "107/105",
+            "decimal": 1.019047619047619
+          }
+        },
+        {
+          "H": [
+            0,
+            3
+          ],
+          "direct_Q": {
+            "exact": "295/3906",
+            "decimal": 0.07552483358934972
+          },
+          "objective": {
+            "exact": "923/868",
+            "decimal": 1.0633640552995391
+          }
+        },
+        {
+          "H": [
+            0,
+            4
+          ],
+          "direct_Q": {
+            "exact": "5/84",
+            "decimal": 0.05952380952380952
+          },
+          "objective": {
+            "exact": "31/28",
+            "decimal": 1.1071428571428572
+          }
+        },
+        {
+          "H": [
+            0,
+            5
+          ],
+          "direct_Q": {
+            "exact": "61/1386",
+            "decimal": 0.04401154401154401
+          },
+          "objective": {
+            "exact": "1063/924",
+            "decimal": 1.1504329004329004
+          }
+        },
+        {
+          "H": [
+            0,
+            6
+          ],
+          "direct_Q": {
+            "exact": "31/1071",
+            "decimal": 0.028944911297852476
+          },
+          "objective": {
+            "exact": "142/119",
+            "decimal": 1.1932773109243697
+          }
+        },
+        {
+          "H": [
+            0,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1/70",
+            "decimal": 0.014285714285714285
+          },
+          "objective": {
+            "exact": "173/140",
+            "decimal": 1.2357142857142858
+          }
+        },
+        {
+          "H": [
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "413/5220",
+            "decimal": 0.07911877394636015
+          },
+          "objective": {
+            "exact": "461/435",
+            "decimal": 1.0597701149425287
+          }
+        },
+        {
+          "H": [
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "175/2697",
+            "decimal": 0.06488691138301816
+          },
+          "objective": {
+            "exact": "1981/1798",
+            "decimal": 1.1017797552836486
+          }
+        },
+        {
+          "H": [
+            1,
+            4
+          ],
+          "direct_Q": {
+            "exact": "427/8352",
+            "decimal": 0.051125478927203066
+          },
+          "objective": {
+            "exact": "1061/928",
+            "decimal": 1.1433189655172413
+          }
+        },
+        {
+          "H": [
+            1,
+            5
+          ],
+          "direct_Q": {
+            "exact": "217/5742",
+            "decimal": 0.03779171020550331
+          },
+          "objective": {
+            "exact": "2267/1914",
+            "decimal": 1.184430512016719
+          }
+        },
+        {
+          "H": [
+            1,
+            6
+          ],
+          "direct_Q": {
+            "exact": "49/1972",
+            "decimal": 0.02484787018255578
+          },
+          "objective": {
+            "exact": "604/493",
+            "decimal": 1.2251521298174441
+          }
+        },
+        {
+          "H": [
+            1,
+            7
+          ],
+          "direct_Q": {
+            "exact": "16/1305",
+            "decimal": 0.012260536398467433
+          },
+          "objective": {
+            "exact": "367/290",
+            "decimal": 1.2655172413793103
+          }
+        },
+        {
+          "H": [
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "61/1116",
+            "decimal": 0.05465949820788531
+          },
+          "objective": {
+            "exact": "106/93",
+            "decimal": 1.1397849462365592
+          }
+        },
+        {
+          "H": [
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "31/720",
+            "decimal": 0.043055555555555555
+          },
+          "objective": {
+            "exact": "283/240",
+            "decimal": 1.1791666666666667
+          }
+        },
+        {
+          "H": [
+            2,
+            5
+          ],
+          "direct_Q": {
+            "exact": "7/220",
+            "decimal": 0.031818181818181815
+          },
+          "objective": {
+            "exact": "67/55",
+            "decimal": 1.2181818181818183
+          }
+        },
+        {
+          "H": [
+            2,
+            6
+          ],
+          "direct_Q": {
+            "exact": "16/765",
+            "decimal": 0.02091503267973856
+          },
+          "objective": {
+            "exact": "641/510",
+            "decimal": 1.2568627450980392
+          }
+        },
+        {
+          "H": [
+            2,
+            7
+          ],
+          "direct_Q": {
+            "exact": "13/1260",
+            "decimal": 0.010317460317460317
+          },
+          "objective": {
+            "exact": "136/105",
+            "decimal": 1.2952380952380953
+          }
+        },
+        {
+          "H": [
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "35/992",
+            "decimal": 0.03528225806451613
+          },
+          "objective": {
+            "exact": "1205/992",
+            "decimal": 1.2147177419354838
+          }
+        },
+        {
+          "H": [
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "80/3069",
+            "decimal": 0.02606712284131639
+          },
+          "objective": {
+            "exact": "2561/2046",
+            "decimal": 1.2517106549364614
+          }
+        },
+        {
+          "H": [
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "325/18972",
+            "decimal": 0.017130508117225385
+          },
+          "objective": {
+            "exact": "679/527",
+            "decimal": 1.28842504743833
+          }
+        },
+        {
+          "H": [
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "11/1302",
+            "decimal": 0.008448540706605223
+          },
+          "objective": {
+            "exact": "575/434",
+            "decimal": 1.3248847926267282
+          }
+        },
+        {
+          "H": [
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "65/3168",
+            "decimal": 0.020517676767676768
+          },
+          "objective": {
+            "exact": "1357/1056",
+            "decimal": 1.285037878787879
+          }
+        },
+        {
+          "H": [
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "11/816",
+            "decimal": 0.013480392156862746
+          },
+          "objective": {
+            "exact": "359/272",
+            "decimal": 1.3198529411764706
+          }
+        },
+        {
+          "H": [
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "67/10080",
+            "decimal": 0.006646825396825397
+          },
+          "objective": {
+            "exact": "1517/1120",
+            "decimal": 1.3544642857142857
+          }
+        },
+        {
+          "H": [
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "67/6732",
+            "decimal": 0.009952465834818775
+          },
+          "objective": {
+            "exact": "758/561",
+            "decimal": 1.3511586452762923
+          }
+        },
+        {
+          "H": [
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "17/3465",
+            "decimal": 0.004906204906204906
+          },
+          "objective": {
+            "exact": "3197/2310",
+            "decimal": 1.383982683982684
+          }
+        },
+        {
+          "H": [
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "23/7140",
+            "decimal": 0.0032212885154061623
+          },
+          "objective": {
+            "exact": "841/595",
+            "decimal": 1.4134453781512606
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2
+          ],
+          "direct_Q": {
+            "exact": "683/2436",
+            "decimal": 0.2803776683087028
+          },
+          "objective": {
+            "exact": "2159/2436",
+            "decimal": 0.8862889983579638
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3
+          ],
+          "direct_Q": {
+            "exact": "14137/56637",
+            "decimal": 0.24960714727121847
+          },
+          "objective": {
+            "exact": "214051/226548",
+            "decimal": 0.944837297173226
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4
+          ],
+          "direct_Q": {
+            "exact": "12853/58464",
+            "decimal": 0.21984469074986315
+          },
+          "objective": {
+            "exact": "58603/58464",
+            "decimal": 1.002377531472359
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            5
+          ],
+          "direct_Q": {
+            "exact": "853/4466",
+            "decimal": 0.1909986565158979
+          },
+          "objective": {
+            "exact": "9459/8932",
+            "decimal": 1.0590013434841021
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            6
+          ],
+          "direct_Q": {
+            "exact": "20249/124236",
+            "decimal": 0.16298818377925883
+          },
+          "objective": {
+            "exact": "138497/124236",
+            "decimal": 1.1147895939985188
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            7
+          ],
+          "direct_Q": {
+            "exact": "248/1827",
+            "decimal": 0.13574165298303228
+          },
+          "objective": {
+            "exact": "8549/7308",
+            "decimal": 1.1698139025725232
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "8681/39060",
+            "decimal": 0.22224782386072708
+          },
+          "objective": {
+            "exact": "39059/39060",
+            "decimal": 0.9999743983614952
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "109/560",
+            "decimal": 0.19464285714285715
+          },
+          "objective": {
+            "exact": "591/560",
+            "decimal": 1.0553571428571429
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            5
+          ],
+          "direct_Q": {
+            "exact": "2327/13860",
+            "decimal": 0.1678932178932179
+          },
+          "objective": {
+            "exact": "15383/13860",
+            "decimal": 1.10988455988456
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            6
+          ],
+          "direct_Q": {
+            "exact": "152/1071",
+            "decimal": 0.1419234360410831
+          },
+          "objective": {
+            "exact": "4985/4284",
+            "decimal": 1.1636321195144725
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            7
+          ],
+          "direct_Q": {
+            "exact": "7/60",
+            "decimal": 0.11666666666666667
+          },
+          "objective": {
+            "exact": "73/60",
+            "decimal": 1.2166666666666666
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "10645/62496",
+            "decimal": 0.17033090117767538
+          },
+          "objective": {
+            "exact": "69211/62496",
+            "decimal": 1.1074468766001024
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "3128/21483",
+            "decimal": 0.14560350044221013
+          },
+          "objective": {
+            "exact": "99677/85932",
+            "decimal": 1.1599520551133455
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "769/6324",
+            "decimal": 0.12160025300442757
+          },
+          "objective": {
+            "exact": "7663/6324",
+            "decimal": 1.2117330803289057
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1919/19530",
+            "decimal": 0.09825908858166922
+          },
+          "objective": {
+            "exact": "49327/39060",
+            "decimal": 1.262852022529442
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "131/1056",
+            "decimal": 0.1240530303030303
+          },
+          "objective": {
+            "exact": "1277/1056",
+            "decimal": 1.209280303030303
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1747/17136",
+            "decimal": 0.10194911297852474
+          },
+          "objective": {
+            "exact": "21577/17136",
+            "decimal": 1.2591619981325863
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "811/10080",
+            "decimal": 0.08045634920634921
+          },
+          "objective": {
+            "exact": "13189/10080",
+            "decimal": 1.3084325396825396
+          }
+        },
+        {
+          "H": [
+            0,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "3907/47124",
+            "decimal": 0.08290892114421526
+          },
+          "objective": {
+            "exact": "61543/47124",
+            "decimal": 1.3059799677446737
+          }
+        },
+        {
+          "H": [
+            0,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "73/1155",
+            "decimal": 0.0632034632034632
+          },
+          "objective": {
+            "exact": "6253/4620",
+            "decimal": 1.3534632034632035
+          }
+        },
+        {
+          "H": [
+            0,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "199/4284",
+            "decimal": 0.046451914098972924
+          },
+          "objective": {
+            "exact": "5989/4284",
+            "decimal": 1.3979925303454714
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "893/4495",
+            "decimal": 0.19866518353726362
+          },
+          "objective": {
+            "exact": "18903/17980",
+            "decimal": 1.0513348164627363
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "7237/41760",
+            "decimal": 0.17329980842911877
+          },
+          "objective": {
+            "exact": "46123/41760",
+            "decimal": 1.104477969348659
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            5
+          ],
+          "direct_Q": {
+            "exact": "427/2871",
+            "decimal": 0.14872866597004528
+          },
+          "objective": {
+            "exact": "13285/11484",
+            "decimal": 1.1568268895855103
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1847/14790",
+            "decimal": 0.1248816768086545
+          },
+          "objective": {
+            "exact": "17873/14790",
+            "decimal": 1.2084516565246788
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            7
+          ],
+          "direct_Q": {
+            "exact": "929/9135",
+            "decimal": 0.1016967706622879
+          },
+          "objective": {
+            "exact": "46019/36540",
+            "decimal": 1.2594143404488232
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "9793/64728",
+            "decimal": 0.15129464837473736
+          },
+          "objective": {
+            "exact": "74713/64728",
+            "decimal": 1.154260907180818
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "7639/59334",
+            "decimal": 0.12874574442983786
+          },
+          "objective": {
+            "exact": "71473/59334",
+            "decimal": 1.2045875889034954
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "14699/137547",
+            "decimal": 0.10686528968279933
+          },
+          "objective": {
+            "exact": "690071/550188",
+            "decimal": 1.2542458214283119
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "48479/566370",
+            "decimal": 0.08559598848809083
+          },
+          "objective": {
+            "exact": "369073/283185",
+            "decimal": 1.303292900400798
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "457/4176",
+            "decimal": 0.10943486590038314
+          },
+          "objective": {
+            "exact": "5227/4176",
+            "decimal": 1.251676245210728
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "12701/141984",
+            "decimal": 0.08945374126662159
+          },
+          "objective": {
+            "exact": "184499/141984",
+            "decimal": 1.2994351476222672
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "853/12180",
+            "decimal": 0.0700328407224959
+          },
+          "objective": {
+            "exact": "8201/6090",
+            "decimal": 1.3466338259441708
+          }
+        },
+        {
+          "H": [
+            1,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1181/16269",
+            "decimal": 0.07259204622287786
+          },
+          "objective": {
+            "exact": "87467/65076",
+            "decimal": 1.3440746204437888
+          }
+        },
+        {
+          "H": [
+            1,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "2209/40194",
+            "decimal": 0.05495845151017565
+          },
+          "objective": {
+            "exact": "55849/40194",
+            "decimal": 1.3894859929342689
+          }
+        },
+        {
+          "H": [
+            1,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "6263/155295",
+            "decimal": 0.04032969509642938
+          },
+          "objective": {
+            "exact": "889463/621180",
+            "decimal": 1.4318925271257927
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "1979/14880",
+            "decimal": 0.132997311827957
+          },
+          "objective": {
+            "exact": "17861/14880",
+            "decimal": 1.2003360215053764
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "157/1395",
+            "decimal": 0.11254480286738351
+          },
+          "objective": {
+            "exact": "6967/5580",
+            "decimal": 1.2485663082437275
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "4397/47430",
+            "decimal": 0.09270503900484925
+          },
+          "objective": {
+            "exact": "30739/23715",
+            "decimal": 1.2961838498840397
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "239/3255",
+            "decimal": 0.07342549923195084
+          },
+          "objective": {
+            "exact": "17489/13020",
+            "decimal": 1.3432411674347158
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "1511/15840",
+            "decimal": 0.09539141414141414
+          },
+          "objective": {
+            "exact": "20489/15840",
+            "decimal": 1.2934974747474748
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "79/1020",
+            "decimal": 0.07745098039215687
+          },
+          "objective": {
+            "exact": "683/510",
+            "decimal": 1.3392156862745097
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "121/2016",
+            "decimal": 0.06001984126984127
+          },
+          "objective": {
+            "exact": "2791/2016",
+            "decimal": 1.3844246031746033
+          }
+        },
+        {
+          "H": [
+            2,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "211/3366",
+            "decimal": 0.06268568033273916
+          },
+          "objective": {
+            "exact": "4651/3366",
+            "decimal": 1.3817587641117053
+          }
+        },
+        {
+          "H": [
+            2,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "163/3465",
+            "decimal": 0.047041847041847044
+          },
+          "objective": {
+            "exact": "19753/13860",
+            "decimal": 1.425180375180375
+          }
+        },
+        {
+          "H": [
+            2,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "41/1190",
+            "decimal": 0.034453781512605045
+          },
+          "objective": {
+            "exact": "872/595",
+            "decimal": 1.4655462184873949
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "335/4092",
+            "decimal": 0.08186705767350928
+          },
+          "objective": {
+            "exact": "2731/2046",
+            "decimal": 1.3347996089931573
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "10001/151776",
+            "decimal": 0.06589315833860426
+          },
+          "objective": {
+            "exact": "209231/151776",
+            "decimal": 1.3785512861058402
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "7871/156240",
+            "decimal": 0.05037762416794675
+          },
+          "objective": {
+            "exact": "222149/156240",
+            "decimal": 1.4218445980542755
+          }
+        },
+        {
+          "H": [
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "2773/52173",
+            "decimal": 0.05315009679336055
+          },
+          "objective": {
+            "exact": "296149/208692",
+            "decimal": 1.4190721254288616
+          }
+        },
+        {
+          "H": [
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "941/23870",
+            "decimal": 0.03942186845412652
+          },
+          "objective": {
+            "exact": "17432/11935",
+            "decimal": 1.4605781315458735
+          }
+        },
+        {
+          "H": [
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "683/23715",
+            "decimal": 0.02880033733923677
+          },
+          "objective": {
+            "exact": "142193/94860",
+            "decimal": 1.498977440438541
+          }
+        },
+        {
+          "H": [
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "263/5984",
+            "decimal": 0.04395053475935829
+          },
+          "objective": {
+            "exact": "8713/5984",
+            "decimal": 1.4560494652406417
+          }
+        },
+        {
+          "H": [
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "127/3960",
+            "decimal": 0.03207070707070707
+          },
+          "objective": {
+            "exact": "5923/3960",
+            "decimal": 1.4957070707070708
+          }
+        },
+        {
+          "H": [
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "4001/171360",
+            "decimal": 0.023348506069094305
+          },
+          "objective": {
+            "exact": "262559/171360",
+            "decimal": 1.5322070494864612
+          }
+        },
+        {
+          "H": [
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "71/3927",
+            "decimal": 0.018079959256429846
+          },
+          "objective": {
+            "exact": "24587/15708",
+            "decimal": 1.5652533740769035
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "direct_Q": {
+            "exact": "2992/6293",
+            "decimal": 0.47544891148895596
+          },
+          "objective": {
+            "exact": "90883/113274",
+            "decimal": 0.8023288662888218
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "direct_Q": {
+            "exact": "14099/32480",
+            "decimal": 0.43408251231527095
+          },
+          "objective": {
+            "exact": "254749/292320",
+            "decimal": 0.8714730432402846
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "direct_Q": {
+            "exact": "4399/11165",
+            "decimal": 0.3939991043439319
+          },
+          "objective": {
+            "exact": "31463/33495",
+            "decimal": 0.9393342289894014
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            6
+          ],
+          "direct_Q": {
+            "exact": "6127/17255",
+            "decimal": 0.35508548246884963
+          },
+          "objective": {
+            "exact": "624923/621180",
+            "decimal": 1.0060256286422615
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            7
+          ],
+          "direct_Q": {
+            "exact": "46/145",
+            "decimal": 0.31724137931034485
+          },
+          "objective": {
+            "exact": "2797/2610",
+            "decimal": 1.071647509578544
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "19913/50344",
+            "decimal": 0.39553869378674716
+          },
+          "objective": {
+            "exact": "141637/151032",
+            "decimal": 0.9377946395465862
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "74237/207669",
+            "decimal": 0.3574775243295822
+          },
+          "objective": {
+            "exact": "2501083/2492028",
+            "decimal": 1.003633586781529
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "14696/45849",
+            "decimal": 0.3205304368688521
+          },
+          "objective": {
+            "exact": "293899/275094",
+            "decimal": 1.0683584520200369
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1791/6293",
+            "decimal": 0.2846019386620054
+          },
+          "objective": {
+            "exact": "85489/75516",
+            "decimal": 1.1320647280046612
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "4933/15312",
+            "decimal": 0.32216562173458724
+          },
+          "objective": {
+            "exact": "49001/45936",
+            "decimal": 1.0667232671543017
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "31707/110432",
+            "decimal": 0.28711786438713416
+          },
+          "objective": {
+            "exact": "374215/331296",
+            "decimal": 1.1295488022795326
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1541/6090",
+            "decimal": 0.25303776683087026
+          },
+          "objective": {
+            "exact": "21767/18270",
+            "decimal": 1.191406677613574
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "29011/113883",
+            "decimal": 0.25474390383112494
+          },
+          "objective": {
+            "exact": "406460/341649",
+            "decimal": 1.1897005406133194
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "7451/33495",
+            "decimal": 0.22245111210628452
+          },
+          "objective": {
+            "exact": "502333/401940",
+            "decimal": 1.2497711101159377
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3326/17255",
+            "decimal": 0.19275572297884672
+          },
+          "objective": {
+            "exact": "45113/34510",
+            "decimal": 1.3072442770211532
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "12503/34720",
+            "decimal": 0.3601094470046083
+          },
+          "objective": {
+            "exact": "312793/312480",
+            "decimal": 1.0010016641065027
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "1658/5115",
+            "decimal": 0.3241446725317693
+          },
+          "objective": {
+            "exact": "32677/30690",
+            "decimal": 1.0647442163571197
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1067/3689",
+            "decimal": 0.2892382759555435
+          },
+          "objective": {
+            "exact": "49909/44268",
+            "decimal": 1.127428390711123
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "277/1085",
+            "decimal": 0.2552995391705069
+          },
+          "objective": {
+            "exact": "11612/9765",
+            "decimal": 1.1891449052739376
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "717/2464",
+            "decimal": 0.2909902597402597
+          },
+          "objective": {
+            "exact": "8321/7392",
+            "decimal": 1.125676406926407
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "307/1190",
+            "decimal": 0.25798319327731095
+          },
+          "objective": {
+            "exact": "12707/10710",
+            "decimal": 1.1864612511671335
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "253/1120",
+            "decimal": 0.22589285714285715
+          },
+          "objective": {
+            "exact": "12563/10080",
+            "decimal": 1.246329365079365
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "263/1155",
+            "decimal": 0.22770562770562772
+          },
+          "objective": {
+            "exact": "17249/13860",
+            "decimal": 1.2445165945165946
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "76/385",
+            "decimal": 0.1974025974025974
+          },
+          "objective": {
+            "exact": "1003/770",
+            "decimal": 1.3025974025974025
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "101/595",
+            "decimal": 0.16974789915966387
+          },
+          "objective": {
+            "exact": "29089/21420",
+            "decimal": 1.358029878618114
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "3737/14322",
+            "decimal": 0.26092724479821255
+          },
+          "objective": {
+            "exact": "50851/42966",
+            "decimal": 1.183517199646232
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "4789/20832",
+            "decimal": 0.22988671274961597
+          },
+          "objective": {
+            "exact": "77641/62496",
+            "decimal": 1.2423355094726063
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3467/17360",
+            "decimal": 0.19971198156682027
+          },
+          "objective": {
+            "exact": "22573/17360",
+            "decimal": 1.3002880184331798
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "8182/40579",
+            "decimal": 0.20163138569210676
+          },
+          "objective": {
+            "exact": "105373/81158",
+            "decimal": 1.2983686143078932
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "6203/35805",
+            "decimal": 0.17324396034073453
+          },
+          "objective": {
+            "exact": "581989/429660",
+            "decimal": 1.3545338174370432
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1633/11067",
+            "decimal": 0.14755579651215325
+          },
+          "objective": {
+            "exact": "46747/33201",
+            "decimal": 1.4079997590434024
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "22171/125664",
+            "decimal": 0.1764307995925643
+          },
+          "objective": {
+            "exact": "509447/376992",
+            "decimal": 1.3513469781852134
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "277/1848",
+            "decimal": 0.14989177489177488
+          },
+          "objective": {
+            "exact": "7793/5544",
+            "decimal": 1.4056637806637806
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "343/2720",
+            "decimal": 0.12610294117647058
+          },
+          "objective": {
+            "exact": "11891/8160",
+            "decimal": 1.4572303921568628
+          }
+        },
+        {
+          "H": [
+            0,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "188/1785",
+            "decimal": 0.10532212885154062
+          },
+          "objective": {
+            "exact": "16127/10710",
+            "decimal": 1.5057889822595705
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "23599/71920",
+            "decimal": 0.3281284760845384
+          },
+          "objective": {
+            "exact": "686609/647280",
+            "decimal": 1.0607604128043504
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "11643/39556",
+            "decimal": 0.29434219840226516
+          },
+          "objective": {
+            "exact": "33296/29667",
+            "decimal": 1.1223244682644016
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "19987/76415",
+            "decimal": 0.26155859451678337
+          },
+          "objective": {
+            "exact": "813512/687735",
+            "decimal": 1.182885849927661
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "28909/125860",
+            "decimal": 0.2296917209597966
+          },
+          "objective": {
+            "exact": "351866/283185",
+            "decimal": 1.2425305012624257
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "2521/9570",
+            "decimal": 0.26342737722048065
+          },
+          "objective": {
+            "exact": "33907/28710",
+            "decimal": 1.1810170672239637
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1079/4640",
+            "decimal": 0.23254310344827586
+          },
+          "objective": {
+            "exact": "51769/41760",
+            "decimal": 1.2396791187739464
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3289/16240",
+            "decimal": 0.20252463054187192
+          },
+          "objective": {
+            "exact": "21071/16240",
+            "decimal": 1.297475369458128
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "11087/54230",
+            "decimal": 0.2044440346671584
+          },
+          "objective": {
+            "exact": "35129/27115",
+            "decimal": 1.2955559653328417
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "23609/133980",
+            "decimal": 0.17621286759217794
+          },
+          "objective": {
+            "exact": "135812/100485",
+            "decimal": 1.3515649101855998
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "520/3451",
+            "decimal": 0.1506809620399884
+          },
+          "objective": {
+            "exact": "43634/31059",
+            "decimal": 1.404874593515567
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "223733/949344",
+            "decimal": 0.23567115818923384
+          },
+          "objective": {
+            "exact": "3521737/2848032",
+            "decimal": 1.2365510640329884
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "50557/244528",
+            "decimal": 0.20675341883138126
+          },
+          "objective": {
+            "exact": "316235/244528",
+            "decimal": 1.2932465811686187
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "539639/3020640",
+            "decimal": 0.17865055087663542
+          },
+          "objective": {
+            "exact": "12225683/9061920",
+            "decimal": 1.3491272269011423
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "364489/2017356",
+            "decimal": 0.1806765885644378
+          },
+          "objective": {
+            "exact": "2038187/1513017",
+            "decimal": 1.34710118921334
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "32056/207669",
+            "decimal": 0.15436102644111543
+          },
+          "objective": {
+            "exact": "872954/623007",
+            "decimal": 1.40119452911444
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "39979/305660",
+            "decimal": 0.13079565530327816
+          },
+          "objective": {
+            "exact": "332987/229245",
+            "decimal": 1.4525376780300552
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "20527/130152",
+            "decimal": 0.15771559407462044
+          },
+          "objective": {
+            "exact": "545795/390456",
+            "decimal": 1.3978399614809351
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "6801/51040",
+            "decimal": 0.13324843260188088
+          },
+          "objective": {
+            "exact": "222037/153120",
+            "decimal": 1.4500849007314525
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "92417/828240",
+            "decimal": 0.11158239157732058
+          },
+          "objective": {
+            "exact": "3725909/2484720",
+            "decimal": 1.4995287195337905
+          }
+        },
+        {
+          "H": [
+            1,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "211777/2277660",
+            "decimal": 0.09298007604295637
+          },
+          "objective": {
+            "exact": "2640791/1708245",
+            "decimal": 1.5459088128459326
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "5767/27280",
+            "decimal": 0.21140029325513196
+          },
+          "objective": {
+            "exact": "35153/27280",
+            "decimal": 1.288599706744868
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "15559/84320",
+            "decimal": 0.18452324478178367
+          },
+          "objective": {
+            "exact": "1019369/758880",
+            "decimal": 1.3432545329959942
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "275/1736",
+            "decimal": 0.15841013824884792
+          },
+          "objective": {
+            "exact": "21829/15624",
+            "decimal": 1.3971454173067077
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "2792/17391",
+            "decimal": 0.16054280949916624
+          },
+          "objective": {
+            "exact": "72782/52173",
+            "decimal": 1.3950127460563893
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "929/6820",
+            "decimal": 0.13621700879765397
+          },
+          "objective": {
+            "exact": "7402/5115",
+            "decimal": 1.4471163245356793
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "4231/36890",
+            "decimal": 0.11469232854432096
+          },
+          "objective": {
+            "exact": "248413/166005",
+            "decimal": 1.49641878256679
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "4181/29920",
+            "decimal": 0.13973930481283423
+          },
+          "objective": {
+            "exact": "129577/89760",
+            "decimal": 1.4435940285204991
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "197/1680",
+            "decimal": 0.11726190476190476
+          },
+          "objective": {
+            "exact": "7529/5040",
+            "decimal": 1.4938492063492064
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1859/19040",
+            "decimal": 0.09763655462184874
+          },
+          "objective": {
+            "exact": "264109/171360",
+            "decimal": 1.5412523342670401
+          }
+        },
+        {
+          "H": [
+            2,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "531/6545",
+            "decimal": 0.08113063407181054
+          },
+          "objective": {
+            "exact": "31132/19635",
+            "decimal": 1.5855360325948562
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "3097/25296",
+            "decimal": 0.1224304237824162
+          },
+          "objective": {
+            "exact": "112973/75888",
+            "decimal": 1.4886806873286949
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "116717/1145760",
+            "decimal": 0.10186862868314481
+          },
+          "objective": {
+            "exact": "5283169/3437280",
+            "decimal": 1.5370202602057441
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "6213/73780",
+            "decimal": 0.08420981295744104
+          },
+          "objective": {
+            "exact": "350261/221340",
+            "decimal": 1.5824568537092256
+          }
+        },
+        {
+          "H": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "33953/486948",
+            "decimal": 0.06972613092157684
+          },
+          "objective": {
+            "exact": "593365/365211",
+            "decimal": 1.6247183135228676
+          }
+        },
+        {
+          "H": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "18449/314160",
+            "decimal": 0.05872485357779476
+          },
+          "objective": {
+            "exact": "1567813/942480",
+            "decimal": 1.6634973686444274
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "direct_Q": {
+            "exact": "1003511/1510320",
+            "decimal": 0.6644360135600402
+          },
+          "objective": {
+            "exact": "378703/503440",
+            "decimal": 0.7522306531066264
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "direct_Q": {
+            "exact": "1094957/1780020",
+            "decimal": 0.6151374703655015
+          },
+          "objective": {
+            "exact": "492061/593340",
+            "decimal": 0.8293069740789429
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ],
+          "direct_Q": {
+            "exact": "2731003/4814145",
+            "decimal": 0.5672872337663282
+          },
+          "objective": {
+            "exact": "1936217/2139620",
+            "decimal": 0.904934988455894
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            7
+          ],
+          "direct_Q": {
+            "exact": "65543/125860",
+            "decimal": 0.5207611631972032
+          },
+          "objective": {
+            "exact": "123247/125860",
+            "decimal": 0.9792388368027968
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "228391/401940",
+            "decimal": 0.5682216251181769
+          },
+          "objective": {
+            "exact": "60559/66990",
+            "decimal": 0.9040005971040453
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "288377/552160",
+            "decimal": 0.5222707186322805
+          },
+          "objective": {
+            "exact": "539863/552160",
+            "decimal": 0.9777292813677195
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "13961/29232",
+            "decimal": 0.47759304871373837
+          },
+          "objective": {
+            "exact": "3411/3248",
+            "decimal": 1.0501847290640394
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "327067/683298",
+            "decimal": 0.47865938433889754
+          },
+          "objective": {
+            "exact": "477907/455532",
+            "decimal": 1.0491183934388804
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "15923/36540",
+            "decimal": 0.4357690202517789
+          },
+          "objective": {
+            "exact": "13639/12180",
+            "decimal": 1.1197865353037766
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "20456/51765",
+            "decimal": 0.3951704819858978
+          },
+          "objective": {
+            "exact": "82007/69020",
+            "decimal": 1.1881628513474356
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "1160569/2215136",
+            "decimal": 0.5239267476127877
+          },
+          "objective": {
+            "exact": "2162135/2215136",
+            "decimal": 0.9760732523872123
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "7393639/15405264",
+            "decimal": 0.4799423755412436
+          },
+          "objective": {
+            "exact": "5380727/5135088",
+            "decimal": 1.0478354022365342
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3961693/9061920",
+            "decimal": 0.4371803105743595
+          },
+          "objective": {
+            "exact": "3378209/3020640",
+            "decimal": 1.1183752449811961
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1688237/3851316",
+            "decimal": 0.4383532797620346
+          },
+          "objective": {
+            "exact": "1434233/1283772",
+            "decimal": 1.117202275793521
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "412616/1038345",
+            "decimal": 0.397378520626574
+          },
+          "objective": {
+            "exact": "1641907/1384460",
+            "decimal": 1.1859548127067594
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "6908231/19256580",
+            "decimal": 0.3587465167750452
+          },
+          "objective": {
+            "exact": "8038753/6418860",
+            "decimal": 1.252364594336066
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "363871/911064",
+            "decimal": 0.399391261206677
+          },
+          "objective": {
+            "exact": "359549/303688",
+            "decimal": 1.1839420721266563
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1158439/3215520",
+            "decimal": 0.3602649027217993
+          },
+          "objective": {
+            "exact": "1340707/1071840",
+            "decimal": 1.250846208389312
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "114841/354960",
+            "decimal": 0.32353222898354744
+          },
+          "objective": {
+            "exact": "155633/118320",
+            "decimal": 1.3153566599053415
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "131839/455532",
+            "decimal": 0.2894176479369177
+          },
+          "objective": {
+            "exact": "209127/151844",
+            "decimal": 1.377249018729749
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "165857/343728",
+            "decimal": 0.4825239724433273
+          },
+          "objective": {
+            "exact": "119761/114576",
+            "decimal": 1.0452538053344504
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "2340433/5312160",
+            "decimal": 0.44058029125628745
+          },
+          "objective": {
+            "exact": "658103/590240",
+            "decimal": 1.114975264299268
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "10411/26040",
+            "decimal": 0.3998079877112135
+          },
+          "objective": {
+            "exact": "10273/8680",
+            "decimal": 1.1835253456221198
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "244136/608685",
+            "decimal": 0.4010875904614045
+          },
+          "objective": {
+            "exact": "959487/811580",
+            "decimal": 1.1822457428719289
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "155581/429660",
+            "decimal": 0.362102592747754
+          },
+          "objective": {
+            "exact": "178883/143220",
+            "decimal": 1.249008518363357
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "15439/47430",
+            "decimal": 0.3255112797807295
+          },
+          "objective": {
+            "exact": "13843/10540",
+            "decimal": 1.3133776091081595
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "686659/1884960",
+            "decimal": 0.3642830617095323
+          },
+          "objective": {
+            "exact": "783407/628320",
+            "decimal": 1.2468280494015789
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "2591/7920",
+            "decimal": 0.32714646464646463
+          },
+          "objective": {
+            "exact": "3463/2640",
+            "decimal": 1.3117424242424243
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3341/11424",
+            "decimal": 0.2924544817927171
+          },
+          "objective": {
+            "exact": "5233/3808",
+            "decimal": 1.3742121848739495
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "15341/58905",
+            "decimal": 0.2604362957304134
+          },
+          "objective": {
+            "exact": "112627/78540",
+            "decimal": 1.434008148714031
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "275837/834768",
+            "decimal": 0.3304355222049719
+          },
+          "objective": {
+            "exact": "364085/278256",
+            "decimal": 1.3084533666839169
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "67649/229152",
+            "decimal": 0.29521453009356236
+          },
+          "objective": {
+            "exact": "104757/76384",
+            "decimal": 1.3714521365731043
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "87149/332010",
+            "decimal": 0.26248908165416707
+          },
+          "objective": {
+            "exact": "316949/221340",
+            "decimal": 1.4319553627902775
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "99893/429660",
+            "decimal": 0.23249313410603734
+          },
+          "objective": {
+            "exact": "213359/143220",
+            "decimal": 1.4897290881161849
+          }
+        },
+        {
+          "H": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "21519/104720",
+            "decimal": 0.20549083269671506
+          },
+          "objective": {
+            "exact": "161741/104720",
+            "decimal": 1.544509167303285
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "575203/1294560",
+            "decimal": 0.44432316771721664
+          },
+          "objective": {
+            "exact": "479519/431520",
+            "decimal": 1.111232387838339
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "741841/1833960",
+            "decimal": 0.40450227922092086
+          },
+          "objective": {
+            "exact": "720643/611320",
+            "decimal": 1.1788310541124125
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "3314867/9061920",
+            "decimal": 0.3658018389038967
+          },
+          "objective": {
+            "exact": "1253877/1006880",
+            "decimal": 1.2453092722072143
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "2777809/7565085",
+            "decimal": 0.3671880752166036
+          },
+          "objective": {
+            "exact": "6273589/5043390",
+            "decimal": 1.2439230358945075
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "146974/445005",
+            "decimal": 0.330274940731003
+          },
+          "objective": {
+            "exact": "776453/593340",
+            "decimal": 1.3086139481578858
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "94937/320943",
+            "decimal": 0.2958064204547225
+          },
+          "objective": {
+            "exact": "146656/106981",
+            "decimal": 1.3708602462119441
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "1298747/3904560",
+            "decimal": 0.33262313807445654
+          },
+          "objective": {
+            "exact": "1700131/1301520",
+            "decimal": 1.3062657508144324
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "63787/214368",
+            "decimal": 0.29755840423943875
+          },
+          "objective": {
+            "exact": "97831/71456",
+            "decimal": 1.369108262427228
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "82303/310590",
+            "decimal": 0.26498921407643516
+          },
+          "objective": {
+            "exact": "98661/69020",
+            "decimal": 1.4294552303680093
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "23629/100485",
+            "decimal": 0.23514952480469722
+          },
+          "objective": {
+            "exact": "99619/66990",
+            "decimal": 1.487072697417525
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "4859123/16138848",
+            "decimal": 0.3010823944806965
+          },
+          "objective": {
+            "exact": "7346319/5379616",
+            "decimal": 1.3655842721859701
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1669243/6230070",
+            "decimal": 0.26793326559733677
+          },
+          "objective": {
+            "exact": "5924843/4153380",
+            "decimal": 1.4265111788471077
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "2150671/9061920",
+            "decimal": 0.23733060984868548
+          },
+          "objective": {
+            "exact": "4485323/3020640",
+            "decimal": 1.4848916123735367
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1232766/5883955",
+            "decimal": 0.20951315909112153
+          },
+          "objective": {
+            "exact": "36256621/23535820",
+            "decimal": 1.5404868409088786
+          }
+        },
+        {
+          "H": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "10099169/54663840",
+            "decimal": 0.18475044929152434
+          },
+          "objective": {
+            "exact": "29026997/18221280",
+            "decimal": 1.5930273284862535
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "142369/521730",
+            "decimal": 0.27287869204377746
+          },
+          "objective": {
+            "exact": "494449/347820",
+            "decimal": 1.421565752400667
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "830857/3437280",
+            "decimal": 0.2417193245822278
+          },
+          "objective": {
+            "exact": "1696301/1145760",
+            "decimal": 1.4805028976399943
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "62907/295120",
+            "decimal": 0.21315735971808078
+          },
+          "objective": {
+            "exact": "453553/295120",
+            "decimal": 1.5368426402819193
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "342269/1826055",
+            "decimal": 0.18743630394484284
+          },
+          "objective": {
+            "exact": "968017/608685",
+            "decimal": 1.590341473832935
+          }
+        },
+        {
+          "H": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "15535/94248",
+            "decimal": 0.164831083948731
+          },
+          "objective": {
+            "exact": "51545/31416",
+            "decimal": 1.6407244716068246
+          }
+        },
+        {
+          "H": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "405289/2782560",
+            "decimal": 0.1456532833074579
+          },
+          "objective": {
+            "exact": "1565357/927520",
+            "decimal": 1.6876800500258755
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "direct_Q": {
+            "exact": "27400421/33227040",
+            "decimal": 0.8246422492042625
+          },
+          "objective": {
+            "exact": "25209059/33227040",
+            "decimal": 0.7586910841290708
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "direct_Q": {
+            "exact": "29645687/38513160",
+            "decimal": 0.7697547279942752
+          },
+          "objective": {
+            "exact": "32403293/38513160",
+            "decimal": 0.8413563831168359
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1298383/1812384",
+            "decimal": 0.7163950906651129
+          },
+          "objective": {
+            "exact": "1671913/1812384",
+            "decimal": 0.922493798223776
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "15186145/21182238",
+            "decimal": 0.7169282584776925
+          },
+          "objective": {
+            "exact": "39058379/42364476",
+            "decimal": 0.9219606304111964
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "690869/1038345",
+            "decimal": 0.6653559269799537
+          },
+          "objective": {
+            "exact": "1039706/1038345",
+            "decimal": 1.001310739686713
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "847043/1375470",
+            "decimal": 0.6158207739899816
+          },
+          "objective": {
+            "exact": "2967229/2750940",
+            "decimal": 1.078623670454463
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "6070987/9110640",
+            "decimal": 0.6663622972700052
+          },
+          "objective": {
+            "exact": "9113413/9110640",
+            "decimal": 1.0003043693966616
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "283259/459360",
+            "decimal": 0.6166383664228492
+          },
+          "objective": {
+            "exact": "495101/459360",
+            "decimal": 1.0778060780215952
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "353453/621180",
+            "decimal": 0.5690025435461541
+          },
+          "objective": {
+            "exact": "716357/621180",
+            "decimal": 1.1532196786760682
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "198783/379610",
+            "decimal": 0.5236505887621506
+          },
+          "objective": {
+            "exact": "931069/759220",
+            "decimal": 1.2263494112378495
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "29935121/48416544",
+            "decimal": 0.6182828952021028
+          },
+          "objective": {
+            "exact": "52104023/48416544",
+            "decimal": 1.0761615492423415
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "7108193/12460140",
+            "decimal": 0.5704745693066049
+          },
+          "objective": {
+            "exact": "14350937/12460140",
+            "decimal": 1.1517476529156174
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "8983071/17116960",
+            "decimal": 0.524805280844262
+          },
+          "objective": {
+            "exact": "20971609/17116960",
+            "decimal": 1.225194719155738
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "5099365/10591119",
+            "decimal": 0.4814755645744326
+          },
+          "objective": {
+            "exact": "13729291/10591119",
+            "decimal": 1.2963022132033453
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "2190091/4969440",
+            "decimal": 0.4407118307092952
+          },
+          "objective": {
+            "exact": "6782509/4969440",
+            "decimal": 1.3648437248462604
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "4184933/7304220",
+            "decimal": 0.5729472825298252
+          },
+          "objective": {
+            "exact": "8394557/7304220",
+            "decimal": 1.149274939692397
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "201321/381920",
+            "decimal": 0.5271287180561374
+          },
+          "objective": {
+            "exact": "467039/381920",
+            "decimal": 1.2228712819438625
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "256843/531216",
+            "decimal": 0.4835001204782988
+          },
+          "objective": {
+            "exact": "687541/531216",
+            "decimal": 1.294277657299479
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "146837/332010",
+            "decimal": 0.4422667991927954
+          },
+          "objective": {
+            "exact": "905251/664020",
+            "decimal": 1.3632887563627603
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "63407/157080",
+            "decimal": 0.40366055513114335
+          },
+          "objective": {
+            "exact": "224573/157080",
+            "decimal": 1.42967277820219
+          }
+        },
+        {
+          "H": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "21500357/58433760",
+            "decimal": 0.3679440960157279
+          },
+          "objective": {
+            "exact": "87251363/58433760",
+            "decimal": 1.4931670150953833
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "14273451/26898080",
+            "decimal": 0.5306494366884179
+          },
+          "objective": {
+            "exact": "32798189/26898080",
+            "decimal": 1.219350563311582
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "4853501/9968112",
+            "decimal": 0.48690273544277995
+          },
+          "objective": {
+            "exact": "12867587/9968112",
+            "decimal": 1.290875042334998
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "68614573/154052640",
+            "decimal": 0.44539693055568536
+          },
+          "objective": {
+            "exact": "209536027/154052640",
+            "decimal": 1.3601586249998703
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "7172696/17651865",
+            "decimal": 0.40634210606074767
+          },
+          "objective": {
+            "exact": "50378113/35303730",
+            "decimal": 1.4269912272725855
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "20224279/54663840",
+            "decimal": 0.3699754536088207
+          },
+          "objective": {
+            "exact": "81511201/54663840",
+            "decimal": 1.4911356575022903
+          }
+        },
+        {
+          "H": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "40738381/121041360",
+            "decimal": 0.33656579040420564
+          },
+          "objective": {
+            "exact": "187895299/121041360",
+            "decimal": 1.5523230984846832
+          }
+        },
+        {
+          "H": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1193681/3895584",
+            "decimal": 0.30641901188627946
+          },
+          "objective": {
+            "exact": "6272855/3895584",
+            "decimal": 1.6102476547803872
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "direct_Q": {
+            "exact": "530919199/564859680",
+            "decimal": 0.9399134294733162
+          },
+          "objective": {
+            "exact": "1419827363/1694579040",
+            "decimal": 0.8378643483044615
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "direct_Q": {
+            "exact": "14644943/16613520",
+            "decimal": 0.8815075312155402
+          },
+          "objective": {
+            "exact": "46055071/49840560",
+            "decimal": 0.9240480243400154
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "14120381/17116960",
+            "decimal": 0.824935093614754
+          },
+          "objective": {
+            "exact": "51782137/51350880",
+            "decimal": 1.0083982397185793
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "13598432/17651865",
+            "decimal": 0.7703680036075509
+          },
+          "objective": {
+            "exact": "231043801/211822380",
+            "decimal": 1.0907431075035603
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "2616577/3644256",
+            "decimal": 0.7180003270900837
+          },
+          "objective": {
+            "exact": "12801053/10932768",
+            "decimal": 1.1708885617988052
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "62892607/94143280",
+            "decimal": 0.6680520054113263
+          },
+          "objective": {
+            "exact": "352646039/282429840",
+            "decimal": 1.2486146612553404
+          }
+        },
+        {
+          "H": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1727339/2782560",
+            "decimal": 0.6207733166580415
+          },
+          "objective": {
+            "exact": "11049583/8347680",
+            "decimal": 1.3236711277864028
+          }
+        },
+        {
+          "H": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "40701691/70607460",
+            "decimal": 0.5764502929293873
+          },
+          "objective": {
+            "exact": "73913933/52955595",
+            "decimal": 1.3957719292928348
+          }
+        },
+        {
+          "H": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "direct_Q": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "objective": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "total_ordered_pairs": 94,
+  "total_subsets": 312,
+  "cpu_seconds": 0.008514999999999995,
+  "scope": "Implementation check; general q-convexity and prefix proofs are in PROOF.md",
+  "repair_sha256": "4bd9b5f09702d577c47a8f1cb426177c587bb72bafacec11eafdd09937600fa8",
+  "checker_sha256": "12874fdc3008318f33d1471adf42bfa91bcdf9e819e608796984f3425438a557"
+}

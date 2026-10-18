@@ -1,0 +1,13 @@
+PASS: fixed-three-draft arbitrary-vocabulary extension and close-distribution corollary.
+
+Before reading the proposer proof, root independently derived the all-original-common cut bound and the product-law tail coefficient bound with Fraction arithmetic. INDEPENDENT-BOUNDS.json reproduces exactly all four reported rational constants. The proof was then read in full, including the later uniform-epsilon closeness corollary.
+
+The product-law conditional distribution given no added token is exactly the old product law. Its mixture weight for any added token is bounded by the added elementary-symmetric mass divided by the old-core normalization. Bounds e2(added)<=epsilon^2/2 and e3(added)<=epsilon^3/6 are valid for arbitrary positive added weights and hence uniform in their count. Comparing with the old all-accepted coupling gives a lower bound on every printed prefix, without assuming successive q-convexity.
+
+The actual-law upper bound uses only target mass capacity on the all-three-original-commons event. It does not assert this remains the optimal cut. The displayed lower bound on printed value minus upper bound on actual optimum is positive and equals the independently calculated rational constant.
+
+The closeness formula and factored original gap were independently checked algebraically. For the combined corollary, each factor loss is at most (3w+1)t/(jw+1), so the product telescoping bound is valid. For epsilon<=1/4, t<=2epsilon and t^2,t^3<=t. K=1+2(a+b+c+d) dominates the required coefficient, and epsilon<=g/(2K) retains at least g/2 positive error. Integer w can achieve arbitrary positive TV tolerance with rational p,q.
+
+The large-vocabulary numerical example remains concentrated on four core tokens; it does not establish realistic model frequency or an effective-support lower bound. Its fixed7.40-point gap is not preserved in the separate arbitrarily-close corollary. TV closeness does not establish coordinatewise ratio closeness. No new model, paid compute, source publication, or author correspondence is part of this review.
+
+This is an independent derivation and exact arithmetic check within the same Codex-assisted workflow, not external human validation.

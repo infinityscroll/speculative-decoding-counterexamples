@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FIXED_RATIONAL_CONSTANTS",
+  "uniform_vocabulary_scope": "All finite V>=5, n=3, extra tokens each p=q=1/[1000(V-4)]",
+  "w": "5",
+  "epsilon": "1/1000",
+  "exact": {
+    "s_epsilon": "2991008997/4232963200",
+    "product_law_TV_upper": "539688028/74775224925",
+    "printed_value_lower": "2966430466883/2991008997000",
+    "actual_optimum_upper": "3884910601/4232963200",
+    "overestimate_lower": "4684942207714402543/63304155075849552000",
+    "target_draft_TV": "999/3200"
+  },
+  "decimal": {
+    "printed_value_lower": 0.991782528858438,
+    "actual_optimum_upper": 0.9177756615035065,
+    "overestimate_lower_percentage_points": 7.400686735493136,
+    "target_draft_TV": 0.3121875
+  },
+  "meaning": "Bounds on enlarged-vocabulary values, not exact optima. Arbitrary-vocabulary and close-distribution theorems are analytical.",
+  "scientific_compute": "No sweep, optimizer, model inference, or large-vocabulary enumeration.",
+  "cpu_seconds": 0.00013699999999999823
+}

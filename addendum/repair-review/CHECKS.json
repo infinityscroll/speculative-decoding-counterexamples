@@ -1,0 +1,365 @@
+{
+  "status": "PASS_FINITE_CONTROLS_NOT_A_PROOF_BY_ENUMERATION",
+  "independent_of_proposer_imports": true,
+  "ordered_draft_instances": 503,
+  "cross_multiplied_qconvex_checks": 1848,
+  "samplewise_inclusion_checks": 3456,
+  "cases": [
+    {
+      "weights": [
+        1
+      ],
+      "n": 1,
+      "ordered_drafts": 1,
+      "inequalities": 0,
+      "strict": 0,
+      "minimum_cross_slack": "None"
+    },
+    {
+      "weights": [
+        1,
+        2
+      ],
+      "n": 1,
+      "ordered_drafts": 2,
+      "inequalities": 2,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2
+      ],
+      "n": 2,
+      "ordered_drafts": 2,
+      "inequalities": 2,
+      "strict": 2,
+      "minimum_cross_slack": "1"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        4
+      ],
+      "n": 1,
+      "ordered_drafts": 3,
+      "inequalities": 12,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        4
+      ],
+      "n": 2,
+      "ordered_drafts": 6,
+      "inequalities": 12,
+      "strict": 12,
+      "minimum_cross_slack": "11/105"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        4
+      ],
+      "n": 3,
+      "ordered_drafts": 6,
+      "inequalities": 12,
+      "strict": 6,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "n": 1,
+      "ordered_drafts": 4,
+      "inequalities": 48,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "n": 2,
+      "ordered_drafts": 12,
+      "inequalities": 48,
+      "strict": 48,
+      "minimum_cross_slack": "23/858"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "n": 3,
+      "ordered_drafts": 24,
+      "inequalities": 48,
+      "strict": 36,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "n": 4,
+      "ordered_drafts": 24,
+      "inequalities": 48,
+      "strict": 12,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "n": 1,
+      "ordered_drafts": 4,
+      "inequalities": 48,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "n": 2,
+      "ordered_drafts": 12,
+      "inequalities": 48,
+      "strict": 48,
+      "minimum_cross_slack": "1/28"
+    },
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "n": 3,
+      "ordered_drafts": 24,
+      "inequalities": 48,
+      "strict": 36,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "n": 4,
+      "ordered_drafts": 24,
+      "inequalities": 48,
+      "strict": 12,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "n": 1,
+      "ordered_drafts": 5,
+      "inequalities": 160,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "n": 2,
+      "ordered_drafts": 20,
+      "inequalities": 160,
+      "strict": 160,
+      "minimum_cross_slack": "29/1680"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "n": 3,
+      "ordered_drafts": 60,
+      "inequalities": 160,
+      "strict": 140,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "n": 4,
+      "ordered_drafts": 120,
+      "inequalities": 160,
+      "strict": 80,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "n": 5,
+      "ordered_drafts": 120,
+      "inequalities": 160,
+      "strict": 20,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 1,
+      "ordered_drafts": 3,
+      "inequalities": 48,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 2,
+      "ordered_drafts": 6,
+      "inequalities": 48,
+      "strict": 24,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 3,
+      "ordered_drafts": 6,
+      "inequalities": 48,
+      "strict": 12,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        0,
+        1,
+        2,
+        4
+      ],
+      "n": 1,
+      "ordered_drafts": 3,
+      "inequalities": 160,
+      "strict": 0,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        0,
+        1,
+        2,
+        4
+      ],
+      "n": 2,
+      "ordered_drafts": 6,
+      "inequalities": 160,
+      "strict": 48,
+      "minimum_cross_slack": "0"
+    },
+    {
+      "weights": [
+        0,
+        0,
+        1,
+        2,
+        4
+      ],
+      "n": 3,
+      "ordered_drafts": 6,
+      "inequalities": 160,
+      "strict": 24,
+      "minimum_cross_slack": "0"
+    }
+  ],
+  "two_draft_controls": [
+    {
+      "weights": [
+        3,
+        3,
+        1
+      ],
+      "all_subsets": 8,
+      "true_optimum": "67/70"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "all_subsets": 16,
+      "true_optimum": "1"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "all_subsets": 32,
+      "true_optimum": "1"
+    }
+  ],
+  "cpu_seconds": 0.013572000000000004
+}

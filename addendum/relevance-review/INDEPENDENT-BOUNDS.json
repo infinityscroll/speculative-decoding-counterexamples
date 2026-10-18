@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T14:31:26.702461+00:00",
+  "epsilon": "1/1000",
+  "a": "999/3200",
+  "seq_all_common_probability": "2991008997/4232963200",
+  "true_optimum_upper": "3884910601/4232963200",
+  "true_optimum_upper_decimal": 0.9177756615035065,
+  "core_e3": "997002999/20480000000",
+  "tail_e3_upper": "134922007/384000000000",
+  "printed_optimum_lower": "2966430466883/2991008997000",
+  "printed_optimum_lower_decimal": 0.991782528858438,
+  "gap_lower": "4684942207714402543/63304155075849552000",
+  "gap_lower_percentage_points": 7.400686735493136,
+  "source": "Independent root derivation before reading proposer proof. Tail elementary coefficients bounded by epsilon^k/k!, so constants uniform in finite number of added tokens.",
+  "scope": "Bound on exact formula gap, not exact value of enlarged-vocabulary optimum; no model data."
+}
