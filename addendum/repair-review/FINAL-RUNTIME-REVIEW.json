@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FINAL_RUNTIME_SOURCE_AND_SMALL_REPLAY",
+  "source_manifest_sha256": "6a3217911c7273aa4b31432e55c152051d84295ab813fdb979f20aa00a276cda",
+  "proof_sha256": "b61489e10212604fcff9ce54e80b35f2e66b7fce50a3f21cbfcceaef05195f4d",
+  "runtime_sha256": "4bd9b5f09702d577c47a8f1cb426177c587bb72bafacec11eafdd09937600fa8",
+  "all_declared_payload_hashes_verified_before_and_after": true,
+  "controls": [
+    {
+      "weights": [
+        1,
+        1
+      ],
+      "optimum": "1",
+      "trace_states": 3
+    },
+    {
+      "weights": [
+        3,
+        3,
+        1
+      ],
+      "optimum": "67/70",
+      "trace_states": 4
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "optimum": "1",
+      "trace_states": 5
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "optimum": "1",
+      "trace_states": 6
+    }
+  ],
+  "invalid_input_rejections": 6,
+  "quadratic_prefix_trace_issue_resolved": true,
+  "scope": "O(1) scan state beyond sorted inputs by default, O(V) scalar trace records if requested; Fraction bit growth not bounded. Runtime replay uses reviewed source executed in memory and independently enumerated expected values; proposer checker not run and no proposer files changed."
+}
