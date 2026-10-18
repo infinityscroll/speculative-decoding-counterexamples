@@ -1,0 +1,110 @@
+{
+  "status": "CONFIRMED_PUBLISHED_EXACT_BOUND_FALSE_FOR_STATED_DRAFT_LAW",
+  "review_type": "Independent adversarial mathematical and primary-source review; private only.",
+  "checked_date": "2026-10-18",
+  "paper": "Hu et al., Towards Optimal Multi-draft Speculative Decoding, ICLR2025",
+  "version_gate": {
+    "final_proceedings_read": true,
+    "arxiv_history_read": true,
+    "latest_arxiv_listed": "v1,2025-02-26",
+    "passages_agree": true,
+    "pdf_sha256": "9df97ac3c93f77bde2f805382b3b523b26e4175c15880302d021c897e9edba7b"
+  },
+  "source_locations": [
+    {
+      "location": "Final printed p.4, Eq6 and Section2.3",
+      "fact": "Drafts are successively sampled from original q with previously selected token masses excluded and the remainder renormalized. Acceptance is output membership in any of the n drafts, with only the required marginals."
+    },
+    {
+      "location": "Final printed p.4, Eq8",
+      "fact": "General optimum is1+min_H(P(H)-Pr(all drafts in H)). The witness does not refute this general identity."
+    },
+    {
+      "location": "Final printed p.6, Sections4.2.1-4.2.2",
+      "fact": "Algorithm scans prefixes sorted by q/p and substitutes e_n(q_H)/e_n(q) for the all-in-H probability."
+    },
+    {
+      "location": "Final printed p.17, proof of Theorem4",
+      "fact": "The same probability identity begins the q-convexity proof. Its failure invalidates this proof step, not by itself the q-convexity statement."
+    },
+    {
+      "location": "Final printed p.14, Eq27",
+      "fact": "The RRS comparison separately uses successive exclusion/renormalization, confirming the sequential protocol is operationally used in the mathematical baseline."
+    }
+  ],
+  "assumption_checks": {
+    "p_and_q_normalized": true,
+    "all_probabilities_strictly_positive": true,
+    "n_less_than_vocabulary": true,
+    "verifier_sees_all_drafts_allowed": true,
+    "deterministic_kernel_permitted_by_transport_formulation": true,
+    "minor_token_ties_do_not_change_prefix_result": true
+  },
+  "exact_results": {
+    "q": [
+      "1/2",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "p": [
+      "19/20",
+      "1/60",
+      "1/60",
+      "1/60"
+    ],
+    "n": 3,
+    "vocabulary": 4,
+    "true_optimum": "1",
+    "published_computation": "19/20",
+    "RRS_actual_acceptance": "191/200",
+    "all_three_checked_kernel_output_marginals_equal_p": true,
+    "checked_all_ordered_sequential_drafts": 24,
+    "checked_all_subsets": 16
+  },
+  "author_defenses": [
+    {
+      "defense": "Without replacement means iid draws conditioned on an entirely distinct batch.",
+      "adjudication": "This repairs the elementary-symmetric formula, but changes the explicit Eq6 law. The positive control gives exactly19/20 under that alternative law. It is a change of mathematical problem, not a reconciliation of the stated sequential protocol."
+    },
+    {
+      "defense": "The distinction is only ordered versus unordered tuples.",
+      "adjudication": "Fails. The all-in-H event is invariant under order and its probability is1/20 for Eq6 versus1/10 for the substituted law."
+    },
+    {
+      "defense": "q is an adjusted weighting rather than the original draft distribution.",
+      "adjudication": "No such transformation is specified. Eq6, the generating function and the q/p ordering use the same q. Introducing another parameterization would require a new equivalence and algorithm argument."
+    },
+    {
+      "defense": "The witness verifier is inadmissible or tuned to p.",
+      "adjudication": "Fails under the stated definitions: every fixed p,q pair is permitted; the deterministic selection kernel has precisely target marginal p and always outputs a draft. No online-first-only constraint is present."
+    },
+    {
+      "defense": "The computation may be an approximation rather than an upper bound.",
+      "adjudication": "The text explicitly presents an exact optimum/upper-bound computation. Its19/20 value lies below a feasible100% kernel and below the paper-defined RRS baseline at191/200."
+    },
+    {
+      "defense": "The unpublished experimental implementation may have used a different or corrected law.",
+      "adjudication": "Possible and unresolved. The finite result does not establish how the published empirical table was computed or quantify its correction."
+    }
+  ],
+  "centrality": "Nontrivial failure of the claimed efficient exact acceptance computation for the stated successive-without-replacement case. This is one of the paper's central proposed diagnostics, rather than a typographic change with identical numerical behavior.",
+  "limits": [
+    "No disproof of q-convexity itself for successive sampling.",
+    "No disproof of the conditional prefix theorem given q-convexity.",
+    "No disproof of the general optimal-transport/subset formulation.",
+    "With-replacement results and the distinct Greedy draft protocol are outside the counterexample.",
+    "No empirical table, real-model speedup, or frequency of the mismatch has been recalculated.",
+    "No claim of novelty priority or complete prior-art clearance."
+  ],
+  "resource_and_independence": {
+    "recursive_probability_tree_implementation": "independent_replay.py",
+    "imports_parent_or_sibling_verifiers": false,
+    "solver_calls": 0,
+    "inference_calls": 0,
+    "paid_compute": 0,
+    "outreach": 0,
+    "primary_download_bytes": 1341864
+  },
+  "recommendation": "Suitable for a precise private correction candidate with the stated scope. Any flagship/public novelty characterization still requires appropriate prior-status review and separate authorization."
+}

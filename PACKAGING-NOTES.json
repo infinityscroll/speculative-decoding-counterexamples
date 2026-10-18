@@ -1,0 +1,11 @@
+{
+  "purpose": "Portable packaging only; mathematical functions and finite cases unchanged. Original packets remain frozen.",
+  "tuple_source_sha256": "ed3a5d986e92a5a28121e731356d3ab0c27ca1005eaefae6185563ba9338c2c9",
+  "subset_source_sha256": "02525a06e424026ce36cf4de76b9e4a42e43b60dfc1dcd8eec38fdddfb90b727",
+  "changes": [
+    "Removed sibling original-packet integrity assertions and Unix resource limit from tuple checker; packaging manifest provides this packet integrity.",
+    "Replaced independent source-PDF filesystem read with explicitly declared source hash. This package does not re-extract or re-read the PDF.",
+    "Replay comparison ignores runtime, script-hash, and original-packet provenance fields; every mathematical output is compared."
+  ],
+  "private": true
+}

@@ -1,0 +1,17 @@
+{
+  "source": "https://proceedings.iclr.cc/paper_files/paper/2025/file/0907335ecf28faf15be54485dbcbe70e-Paper-Conference.pdf",
+  "sha256": "9df97ac3c93f77bde2f805382b3b523b26e4175c15880302d021c897e9edba7b",
+  "bytes": 393530,
+  "downloaded_utc": "2026-10-18T14:01:45.740640+00:00",
+  "source_pages": {
+    "Eq6": 4,
+    "Q_formula": 6,
+    "proof_Theorem4": 17
+  },
+  "root_verifier_sha256": "f1ff4ff3787b96a95075c452f66056fd44f07055c518523db9136ba3226f604e",
+  "root_replay_sha256": "5fb82402fc5b73ccbb9c62e8d31cd848fff41244eaa224d119c926c1d5556bc1",
+  "publicly_released": false,
+  "status": "PRIVATE_VERIFIED_PUBLIC_RELEASE_NOT_AUTHORIZED",
+  "novelty": "Specific priority unverified; standard sampling-law distinction",
+  "external_human_review": false
+}

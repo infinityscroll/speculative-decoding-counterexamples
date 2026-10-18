@@ -1,0 +1,1279 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_BOUND_COUNTEREXAMPLE",
+  "q": [
+    "1/2",
+    "1/6",
+    "1/6",
+    "1/6"
+  ],
+  "p": [
+    "19/20",
+    "1/60",
+    "1/60",
+    "1/60"
+  ],
+  "n": 3,
+  "sequential_ordered_tuples": 24,
+  "iid_unconditioned_tuples": 64,
+  "deterministic_valid_verifier_acceptance": "1",
+  "RRS_acceptance": "191/200",
+  "product_weighted_law_optimum": "19/20",
+  "computed_published_prefix_value": "19/20",
+  "true_optimum": "1",
+  "true_optimum_proof": "A feasible target-marginal coupling always outputs a drafted token; no acceptance can exceed1.",
+  "all_three_output_marginals_equal_target": true,
+  "subset_checks": [
+    {
+      "subset": [],
+      "P": "0",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "1",
+      "formula_dual": "1"
+    },
+    {
+      "subset": [
+        0
+      ],
+      "P": "19/20",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "39/20",
+      "formula_dual": "39/20"
+    },
+    {
+      "subset": [
+        1
+      ],
+      "P": "1/60",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "61/60",
+      "formula_dual": "61/60"
+    },
+    {
+      "subset": [
+        0,
+        1
+      ],
+      "P": "29/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "59/30",
+      "formula_dual": "59/30"
+    },
+    {
+      "subset": [
+        2
+      ],
+      "P": "1/60",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "61/60",
+      "formula_dual": "61/60"
+    },
+    {
+      "subset": [
+        0,
+        2
+      ],
+      "P": "29/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "59/30",
+      "formula_dual": "59/30"
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "P": "1/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "31/30",
+      "formula_dual": "31/30"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "P": "59/60",
+      "actual_Q": "19/60",
+      "formula_Q": "3/10",
+      "actual_dual": "5/3",
+      "formula_dual": "101/60"
+    },
+    {
+      "subset": [
+        3
+      ],
+      "P": "1/60",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "61/60",
+      "formula_dual": "61/60"
+    },
+    {
+      "subset": [
+        0,
+        3
+      ],
+      "P": "29/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "59/30",
+      "formula_dual": "59/30"
+    },
+    {
+      "subset": [
+        1,
+        3
+      ],
+      "P": "1/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "31/30",
+      "formula_dual": "31/30"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "P": "59/60",
+      "actual_Q": "19/60",
+      "formula_Q": "3/10",
+      "actual_dual": "5/3",
+      "formula_dual": "101/60"
+    },
+    {
+      "subset": [
+        2,
+        3
+      ],
+      "P": "1/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "31/30",
+      "formula_dual": "31/30"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "P": "59/60",
+      "actual_Q": "19/60",
+      "formula_Q": "3/10",
+      "actual_dual": "5/3",
+      "formula_dual": "101/60"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "P": "1/20",
+      "actual_Q": "1/20",
+      "formula_Q": "1/10",
+      "actual_dual": "1",
+      "formula_dual": "19/20"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "P": "1",
+      "actual_Q": "1",
+      "formula_Q": "1",
+      "actual_dual": "1",
+      "formula_dual": "1"
+    }
+  ],
+  "sorted_prefixes": [
+    {
+      "subset": [],
+      "P": "0",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "1",
+      "formula_dual": "1"
+    },
+    {
+      "subset": [
+        1
+      ],
+      "P": "1/60",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "61/60",
+      "formula_dual": "61/60"
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "P": "1/30",
+      "actual_Q": "0",
+      "formula_Q": "0",
+      "actual_dual": "31/30",
+      "formula_dual": "31/30"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "P": "1/20",
+      "actual_Q": "1/20",
+      "formula_Q": "1/10",
+      "actual_dual": "1",
+      "formula_dual": "19/20"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "P": "1",
+      "actual_Q": "1",
+      "formula_Q": "1",
+      "actual_dual": "1",
+      "formula_dual": "1"
+    }
+  ],
+  "sequential_coupling": [
+    {
+      "drafts": [
+        0,
+        1,
+        2
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        1,
+        3
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        1
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        3
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        1
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        2
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        3
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        2
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        3
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        1
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        2
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        1
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "rejective_positive_control": [
+    {
+      "drafts": [
+        0,
+        1,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        1,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        3
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        2
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        3
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        1
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        2
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        0
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        1
+      ],
+      "draft_mass": "1/60",
+      "conditional_output": [
+        "1/2",
+        "1/6",
+        "1/6",
+        "1/6"
+      ]
+    }
+  ],
+  "RRS_coupling": [
+    {
+      "drafts": [
+        0,
+        1,
+        2
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        1,
+        3
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        1
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        2,
+        3
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        1
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        0,
+        3,
+        2
+      ],
+      "draft_mass": "1/12",
+      "conditional_output": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        2,
+        3
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        1,
+        3,
+        2
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "1/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        0,
+        3
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        1,
+        3
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        2,
+        3,
+        1
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        1
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        0,
+        2
+      ],
+      "draft_mass": "1/20",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        1,
+        2
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        0
+      ],
+      "draft_mass": "1/40",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    },
+    {
+      "drafts": [
+        3,
+        2,
+        1
+      ],
+      "draft_mass": "1/120",
+      "conditional_output": [
+        "9/10",
+        "0",
+        "0",
+        "1/10"
+      ]
+    }
+  ],
+  "source_dependence": "No imports, execution, or copied numerical outputs from parent or sibling certificates.",
+  "limits": [
+    "Does not disprove q-convexity for successive sampling.",
+    "Does not recalculate empirical tables or establish novelty.",
+    "Does not challenge the general transport formula or separate Greedy protocol."
+  ],
+  "script_sha256": "eb23e1bb2334c11144c4ccdd8cb79c1c23d56b8d4da196e5791d362fca3aceee"
+}

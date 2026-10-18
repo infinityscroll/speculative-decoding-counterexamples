@@ -1,0 +1,9 @@
+Private draft; not posted. Attach figure and a public proof link only after publication is authorized.
+
+An ICLR 2025 speculative-decoding formula predicts 100% optimal acceptance where the true optimum is 79.96%. A positive-probability family widens the error toward 100 percentage points. Exact proof + reproducible checks; a correction to the formula, not a measured speedup.
+
+Follow-up:
+The source uses successive draws without replacement but evaluates probabilities for a batch conditioned on distinct draws. We give explicit optimal couplings and matching bounds. Separately written Codex-assisted checks agree. Priority and external review remain unverified.
+
+Source: Hu et al., Towards Optimal Multi-draft Speculative Decoding, §4.2.2, ICLR 2025.
+https://proceedings.iclr.cc/paper_files/paper/2025/file/0907335ecf28faf15be54485dbcbe70e-Paper-Conference.pdf

@@ -1,0 +1,19 @@
+{
+  "four_token": {
+    "formula": "19/20",
+    "rrs": "191/200",
+    "valid_verifier": "1"
+  },
+  "eight_token": {
+    "n": 7,
+    "q_rare": "1/50",
+    "q_each_common": "7/50",
+    "p_rare": "1/2",
+    "p_each_common": "1/14",
+    "formula": "1",
+    "successive_optimum": "6580499/8230200",
+    "omission_probability": "5764801/8230200"
+  },
+  "scope": "Exact constructed distributions, not real-model measurements",
+  "private": true
+}
